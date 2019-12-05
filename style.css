@@ -3,7 +3,7 @@
 	width: 2000px;
 	height: 2000px;
 	display: grid;
-	background-color: DeepSkyBlue;
+	background-color: deepskyblue;
 	padding:10px;
 	grid-gap: 10px;
 	dgid-template-columns: repeat (12, 1fr)
@@ -13,6 +13,7 @@
 	"b b b c c c d d d e e e"
 	"f f f f f f g g g g g g" 
 	"h h h h h h h h h h h h"
+	"i i i i i i i i i i i i"
 }
 
 .a{
@@ -39,6 +40,9 @@
 }
 .h {
 	grid-area: h;
+}
+.i {
+	grid-area: i;
 }
 
 .box {
